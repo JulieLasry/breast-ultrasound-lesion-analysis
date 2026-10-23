@@ -1,0 +1,10 @@
+# Tests
+pytest
+
+# Code quality
+pre-commit
+ruff
+mypy
+
+# Notebook
+ipykernel

@@ -1,0 +1,32 @@
+# Environements
+.venv/
+venv/
+
+# Python tools
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Data and outputs
+data/preprocessed/*
+!data/preprocessed/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+outputs/train/*
+!outputs/train/.gitkeep
+outputs/test/*
+!outputs/test/.gitkeep
+
+# Models and logs
+models/checkpoint/per_fold/*
+!models/checkpoint/per_fold/.gitkeep
+*.ckpt
+*.pth
+*.pt
+mlruns/
+multirun/
+

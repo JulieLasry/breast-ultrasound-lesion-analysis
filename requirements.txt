@@ -1,0 +1,25 @@
+# Base
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+
+# DL
+torch
+torchvision
+monai
+lightning
+timm
+
+# Images
+pillow
+imagehash
+albumentations
+opencv-python-headless
+
+# Experiment tracking and optimization
+mlflow
+
+# Config and utilitaries
+hydra-core
